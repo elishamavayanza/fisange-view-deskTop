@@ -1,0 +1,101 @@
+/* ---------- Global ---------- */
+.root {
+    -fx-background-color: #1e1e2f;      /* bleu nuit profond */
+    -fx-font-family: "Segoe UI", sans-serif;
+}
+
+/* ---------- Login Pane ---------- */
+.login-pane {
+    -fx-background-color: linear-gradient(to bottom right, #2a2a3e, #3b3b5a);
+    -fx-padding: 30;
+    -fx-alignment: center;
+}
+.app-title {
+    -fx-font-size: 28px;
+    -fx-text-fill: #e0e0e0;
+    -fx-font-weight: bold;
+}
+.text-field, .password-field {
+    -fx-pref-width: 300px;
+    -fx-background-color: #2d2d44;
+    -fx-text-fill: #ffffff;
+    -fx-background-radius: 10;
+    -fx-padding: 10 15;
+    -fx-border-color: #444466;
+    -fx-border-radius: 10;
+    -fx-font-size: 14px;
+}
+.login-button {
+    -fx-background-color: #5c6bc0;
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+    -fx-background-radius: 10;
+    -fx-padding: 12 25;
+}
+.login-button:hover {
+    -fx-background-color: #3f51b5;
+}
+
+/* ---------- Dashboard Pane ---------- */
+.dashboard-pane {
+    -fx-background-color: linear-gradient(to bottom right, #2e2e4a, #414163);
+    -fx-padding: 25;
+}
+
+/* ---------- Header ---------- */
+.header {
+    -fx-background-color: #2d2d44;
+    -fx-padding: 15;
+}
+.header-title {
+    -fx-font-size: 20px;
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+}
+.header-subtitle {
+    -fx-font-size: 12px;
+    -fx-text-fill: #b0b0b0;
+}
+
+/* ---------- Sidebar ScrollPane ---------- */
+.sidebar-scroll {
+    -fx-background: transparent;
+    -fx-padding: 0;
+    -fx-fit-to-width: true;   /* La ScrollPane s'adapte à la largeur */
+    -fx-vgrow: ALWAYS;        /* Assure la croissance verticale */
+}
+
+/* ---------- Sidebar Container ---------- */
+/* ---------- Sidebar Container ---------- */
+.sidebar {
+    -fx-background-color: #212134;
+    -fx-padding: 5;
+    -fx-spacing: 5;
+    -fx-pref-width: 220px;
+    -fx-pref-height: 100%; /* Remplir toute la hauteur disponible */
+}
+
+
+/* Style direct des Separator (sans HBox) */
+.sidebar > Separator {
+    -fx-background-color: #3a3a55;
+    -fx-padding: 2 0;
+    -fx-border-insets: 0;
+}
+
+/* Style direct des Buttons (sans HBox) */
+.sidebar > .sidebar-button {
+    -fx-background-color: #2e2e4a;
+    -fx-text-fill: #e0e0e0;
+    -fx-background-radius: 5;
+    -fx-padding: 8 12;
+    -fx-border-width: 0;
+}
+.sidebar > .sidebar-button:hover {
+    -fx-background-color: #3e3e5e;
+    -fx-text-fill: #ffffff;
+}
+.sidebar > .sidebar-button:focused {
+    -fx-background-color: #56568a;
+    -fx-text-fill: #ffffff;
+}

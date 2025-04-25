@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.fisange.controllers.LoginController"
+            prefWidth="400" prefHeight="350"
+            styleClass="login-pane">
+
+    <VBox spacing="15" alignment="CENTER" AnchorPane.topAnchor="20.0" AnchorPane.bottomAnchor="20.0"
+          AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0">
+        <Label text="FISANGE SHOP" styleClass="app-title"/>
+        <TextField fx:id="usernameField" promptText="Username or Email" />
+        <PasswordField fx:id="passwordField" promptText="Password" />
+        <Button text="Login" onAction="#handleLogin" styleClass="login-button"/>
+        <Label fx:id="errorLabel" textFill="red" visible="false"/>
+
+        <HBox spacing="20" alignment="CENTER">
+            <Hyperlink text="Forgot password?" onAction="#handleForgotPassword"/>
+            <Hyperlink text="Create account" onAction="#handleCreateAccount"/>
+        </HBox>
+    </VBox>
+</AnchorPane>

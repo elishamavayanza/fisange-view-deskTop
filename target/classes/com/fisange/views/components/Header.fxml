@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+
+<HBox spacing="20" styleClass="header" xmlns:fx="http://javafx.com/fxml">
+    <Label text="FISANGESHOP" styleClass="header-title"/>
+    <Pane HBox.hgrow="ALWAYS"/>
+    <Label text="About me: ELISHAMA VAYANZA" styleClass="header-subtitle"/>
+</HBox>

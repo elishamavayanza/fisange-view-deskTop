@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?> <?import javafx.scene.control.*?> <?import javafx.scene.layout.*?> <?import javafx.scene.image.ImageView?> <?import javafx.scene.image.Image?>
+<ScrollPane
+        xmlns:fx="http://javafx.com/fxml"
+        fx:controller="com.fisange.controllers.components.SidebarController"
+        styleClass="sidebar-scroll"
+        fitToWidth="true"
+        fitToHeight="true"
+        hbarPolicy="NEVER"
+        vbarPolicy="AS_NEEDED"
+        prefWidth="220"
+        VBox.vgrow="ALWAYS">   <!-- ← ici -->
+    <content>
+        <VBox spacing="10" alignment="TOP_LEFT" styleClass="sidebar" prefWidth="220">             <!-- Header -->
+            <VBox spacing="5" styleClass="header">
+                <HBox spacing="10" styleClass="header-box">
+                    <ImageView fitHeight="30" fitWidth="30">
+                        <Image url="@/assets/images/icons/dollar.png"/>
+                    </ImageView>
+                    <Label text="FISANGESHOP" styleClass="header-title"/>
+                </HBox>
+                <HBox spacing="10" styleClass="header-box">
+                    <ImageView fitHeight="30" fitWidth="30">
+                        <Image url="@/assets/images/icons/profile.png"/>
+                    </ImageView>
+                    <Label text="About me: ELISHAMA VAYANZA" styleClass="header-subtitle"/>
+                </HBox>
+            </VBox>
+            <Separator/>              <!-- Menu -->
+            <Button text="Tableau de bord" onAction="#showDashboard" styleClass="sidebar-button"/>
+            <Button text="Point de vente" onAction="#showSales" styleClass="sidebar-button"/>
+            <Button text="Catégories de produits" onAction="#showCategories" styleClass="sidebar-button"/>
+            <Button text="Tous nos produits" onAction="#showProducts" styleClass="sidebar-button"/>
+            <Button text="État de stock" onAction="#showStock" styleClass="sidebar-button"/>
+            <Button text="Taux de change" onAction="#showRates" styleClass="sidebar-button"/>
+            <Button text="Utilisateurs" onAction="#showUsers" styleClass="sidebar-button"/>
+            <Button text="Configuration" onAction="#showSettings" styleClass="sidebar-button"/>
+            <Separator/>
+            <Button text="Ajouter un produit" onAction="#addProduct" styleClass="sidebar-button"/>
+            <Button text="Fusion des catalogues" onAction="#mergeCatalogs" styleClass="sidebar-button"/>
+            <Button text="Revalider Qnt disponible" onAction="#revalidateStock" styleClass="sidebar-button"/>
+        </VBox>
+    </content>
+</ScrollPane>

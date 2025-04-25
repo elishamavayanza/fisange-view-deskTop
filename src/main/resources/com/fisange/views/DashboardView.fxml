@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane fx:id="rootLayout" xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.fisange.controllers.DashboardController"
+            prefWidth="1000" prefHeight="700"
+            styleClass="dashboard-pane">
+
+    <top>
+        <fx:include source="/com/fisange/views/components/Header.fxml"/>
+    </top>
+
+    <left>
+
+            <VBox fx:id="sidebarContainer" maxHeight="Infinity" />
+
+    </left>
+
+    <center>
+        <StackPane fx:id="contentArea" styleClass="content-area"/>
+    </center>
+</BorderPane>
+
