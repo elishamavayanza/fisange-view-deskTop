@@ -22,6 +22,8 @@ public class DashboardController {
     @FXML
     private VBox sidebarContainer;
 
+
+
     @FXML
     public void initialize() {
         loadSidebar();

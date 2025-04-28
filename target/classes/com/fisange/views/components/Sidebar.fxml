@@ -12,32 +12,116 @@
     <content>
         <VBox spacing="10" alignment="TOP_LEFT" styleClass="sidebar" prefWidth="220">             <!-- Header -->
             <VBox spacing="5" styleClass="header">
-                <HBox spacing="10" styleClass="header-box">
-                    <ImageView fitHeight="30" fitWidth="30">
-                        <Image url="@/assets/images/icons/dollar.png"/>
-                    </ImageView>
-                    <Label text="FISANGESHOP" styleClass="header-title"/>
-                </HBox>
+
                 <HBox spacing="10" styleClass="header-box">
                     <ImageView fitHeight="30" fitWidth="30">
                         <Image url="@/assets/images/icons/profile.png"/>
                     </ImageView>
-                    <Label text="About me: ELISHAMA VAYANZA" styleClass="header-subtitle"/>
+                    <Label text="ELISHAMA VAYANZA" styleClass="header-subtitle"/>
                 </HBox>
             </VBox>
             <Separator/>              <!-- Menu -->
-            <Button text="Tableau de bord" onAction="#showDashboard" styleClass="sidebar-button"/>
-            <Button text="Point de vente" onAction="#showSales" styleClass="sidebar-button"/>
-            <Button text="Catégories de produits" onAction="#showCategories" styleClass="sidebar-button"/>
-            <Button text="Tous nos produits" onAction="#showProducts" styleClass="sidebar-button"/>
-            <Button text="État de stock" onAction="#showStock" styleClass="sidebar-button"/>
-            <Button text="Taux de change" onAction="#showRates" styleClass="sidebar-button"/>
-            <Button text="Utilisateurs" onAction="#showUsers" styleClass="sidebar-button"/>
-            <Button text="Configuration" onAction="#showSettings" styleClass="sidebar-button"/>
+            <Button text="Tableau de bord" onAction="#showDashboard" styleClass="sidebar-button">
+                <graphic>
+                    <ImageView fitWidth="16" fitHeight="16" preserveRatio="true">
+                        <image>
+                            <Image url="@/assets/images/icons/profile.png"/>
+                        </image>
+                    </ImageView>
+                </graphic>
+            </Button>
+
+            <Button text="Point de vente" onAction="#showSales" styleClass="sidebar-button">
+                <graphic>
+                    <ImageView fitWidth="16" fitHeight="16" preserveRatio="true">
+                        <image>
+                            <Image url="@/assets/images/icons/profile.png"/>
+                        </image>
+                    </ImageView>
+                </graphic>
+            </Button>
+            <Button text="Catégories de produits" onAction="#showCategories" styleClass="sidebar-button">
+                <graphic>
+                    <ImageView fitWidth="16" fitHeight="16" preserveRatio="true">
+                        <image>
+                            <Image url="@/assets/images/icons/profile.png"/>
+                        </image>
+                    </ImageView>
+                </graphic>
+            </Button>
+            <Button text="Tous nos produits" onAction="#showProducts" styleClass="sidebar-button">
+                <graphic>
+                    <ImageView fitWidth="16" fitHeight="16" preserveRatio="true">
+                        <image>
+                            <Image url="@/assets/images/icons/profile.png"/>
+                        </image>
+                    </ImageView>
+                </graphic>
+            </Button>
+            <Button text="État de stock" onAction="#showStock" styleClass="sidebar-button">
+                <graphic>
+                    <ImageView fitWidth="16" fitHeight="16" preserveRatio="true">
+                        <image>
+                            <Image url="@/assets/images/icons/profile.png"/>
+                        </image>
+                    </ImageView>
+                </graphic>
+            </Button>
+            <Button text="Taux de change" onAction="#showRates" styleClass="sidebar-button">
+                <graphic>
+                    <ImageView fitWidth="16" fitHeight="16" preserveRatio="true">
+                        <image>
+                            <Image url="@/assets/images/icons/profile.png"/>
+                        </image>
+                    </ImageView>
+                </graphic>
+            </Button>
+            <Button text="Utilisateurs" onAction="#showUsers" styleClass="sidebar-button">
+                <graphic>
+                    <ImageView fitWidth="16" fitHeight="16" preserveRatio="true">
+                        <image>
+                            <Image url="@/assets/images/icons/profile.png"/>
+                        </image>
+                    </ImageView>
+                </graphic>
+            </Button>
+            <Button text="Configuration" onAction="#showSettings" styleClass="sidebar-button">
+                <graphic>
+                    <ImageView fitWidth="16" fitHeight="16" preserveRatio="true">
+                        <image>
+                            <Image url="@/assets/images/icons/profile.png"/>
+                        </image>
+                    </ImageView>
+                </graphic>
+            </Button>
             <Separator/>
-            <Button text="Ajouter un produit" onAction="#addProduct" styleClass="sidebar-button"/>
-            <Button text="Fusion des catalogues" onAction="#mergeCatalogs" styleClass="sidebar-button"/>
-            <Button text="Revalider Qnt disponible" onAction="#revalidateStock" styleClass="sidebar-button"/>
+            <Button text="Ajouter un produit" onAction="#addProduct" styleClass="sidebar-button">
+                <graphic>
+                    <ImageView fitWidth="16" fitHeight="16" preserveRatio="true">
+                        <image>
+                            <Image url="@/assets/images/icons/profile.png"/>
+                        </image>
+                    </ImageView>
+                </graphic>
+            </Button>
+            <Button text="Fusion des catalogues" onAction="#mergeCatalogs" styleClass="sidebar-button">
+                <graphic>
+                    <ImageView fitWidth="16" fitHeight="16" preserveRatio="true">
+                        <image>
+                            <Image url="@/assets/images/icons/profile.png"/>
+                        </image>
+                    </ImageView>
+                </graphic>
+            </Button>
+            <Button text="Revalider Qnt disponible" onAction="#revalidateStock" styleClass="sidebar-button">
+                <graphic>
+                    <ImageView fitWidth="16" fitHeight="16" preserveRatio="true">
+                        <image>
+                            <Image url="@/assets/images/icons/profile.png"/>
+                        </image>
+                    </ImageView>
+                </graphic>
+            </Button>
         </VBox>
     </content>
 </ScrollPane>

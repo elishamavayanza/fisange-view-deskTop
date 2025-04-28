@@ -6,5 +6,5 @@
 <HBox spacing="20" styleClass="header" xmlns:fx="http://javafx.com/fxml">
     <Label text="FISANGESHOP" styleClass="header-title"/>
     <Pane HBox.hgrow="ALWAYS"/>
-    <Label text="About me: ELISHAMA VAYANZA" styleClass="header-subtitle"/>
+    <Label text="ELISHAMA VAYANZA" styleClass="header-subtitle"/>
 </HBox>

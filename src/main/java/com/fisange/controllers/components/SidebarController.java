@@ -65,4 +65,5 @@ public class SidebarController {
     private void revalidateStock() {
         parentController.revalidateStock();
     }
+
 }
