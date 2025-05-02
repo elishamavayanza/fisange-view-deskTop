@@ -1,13 +1,18 @@
 package com.fisange.controllers;
 
 import javafx.application.Platform;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
+import javafx.scene.control.Label;
+import javafx.scene.control.TextField;
 import javafx.stage.Stage;
+import javafx.stage.StageStyle;
 
+import java.awt.*;
 import java.io.IOException;
 
 public class LoginController {
@@ -38,10 +43,15 @@ public class LoginController {
                 Scene dashboardScene = new Scene(root);
                 dashboardScene.getStylesheets().add(getClass().getResource("/styles/futuristic.css").toExternalForm());
 
+
                 Stage stage = new Stage();
                 stage.setTitle("FISANGE - Dashboard");
                 stage.setScene(dashboardScene);
-                stage.setMaximized(true);
+                stage.initStyle(StageStyle.UNDECORATED);
+
+//              stage.setMaximized(true);
+                stage.setHeight(700);
+                stage.setWidth(1100);
                 stage.show();
 
                 // Fermer la fenêtre de connexion
@@ -51,7 +61,7 @@ public class LoginController {
             } catch (IOException e) {
                 System.err.println("❌ Erreur FXML : " + e.getMessage());
                 e.printStackTrace();
-                errorLabel.setText("Erreur de chargement du tableau de bord.");
+                errorLabel.setText("Erreur de chargement du tableau de bord.Veuillez vérifier les chemins des ressources.");
                 errorLabel.setVisible(true);
             }
 
@@ -78,4 +88,12 @@ public class LoginController {
         alert.setContentText("La création de compte sera bientôt disponible.");
         alert.showAndWait();
     }
+
+    @FXML
+    public void handleCancel() {
+        // Fermer simplement la fenêtre de connexion
+        Platform.exit();
+    }
+
+
 }

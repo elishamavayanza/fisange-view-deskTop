@@ -1,6 +1,7 @@
 package com.fisange.controllers.components;
 
 import com.fisange.controllers.DashboardController;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 
 public class SidebarController {
@@ -55,6 +56,9 @@ public class SidebarController {
     private void addProduct() {
         parentController.addProduct();
     }
+
+    @FXML
+    private void showDepot() { parentController.showDepot();}
 
     @FXML
     private void mergeCatalogs() {

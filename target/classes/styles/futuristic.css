@@ -4,37 +4,6 @@
     -fx-font-family: "Segoe UI", sans-serif;
 }
 
-/* ---------- Login Pane ---------- */
-.login-pane {
-    -fx-background-color: linear-gradient(to bottom right, #040319, #0e1c38);
-    -fx-padding: 20;
-    -fx-alignment: center;
-}
-.app-title {
-    -fx-font-size: 28px;
-    -fx-text-fill: #e0e0e0;
-    -fx-font-weight: bold;
-}
-.text-field, .password-field {
-    -fx-pref-width: 300px;
-    -fx-background-color: #0e1c38;
-    -fx-text-fill: #ffffff;
-    -fx-background-radius: 10;
-    -fx-padding: 10 15;
-    -fx-border-color: #0e1c38;
-    -fx-border-radius: 10;
-    -fx-font-size: 14px;
-}
-.login-button {
-    -fx-background-color: #273b67;
-    -fx-text-fill: #ffffff;
-    -fx-font-weight: bold;
-    -fx-background-radius: 10;
-    -fx-padding: 12 25;
-}
-.login-button:hover {
-    -fx-background-color: #132747;
-}
 
 /* ---------- Dashboard Pane ---------- */
 .dashboard-pane {
@@ -90,14 +59,19 @@
 
 /* Style direct des Buttons (sans HBox) */
 .sidebar > .sidebar-button {
-    -fx-background-color: #2e2e4a;
+    -fx-background-color: #090e32;
     -fx-text-fill: #e0e0e0;
     -fx-background-radius: 5;
     -fx-padding: 8 12;
     -fx-border-width: 0;
     -fx-font-size: 14px;
-    /*-fx-border-color: #444;*/
+    -fx-border-color: #444;
     -fx-graphic-text-gap: 10px;
+
+    -fx-alignment: CENTER_LEFT;  /* <-- aligne le texte à gauche */
+
+    -fx-max-width: Infinity;
+    -fx-pref-width: Infinity;
 
 
 }
@@ -106,6 +80,67 @@
     -fx-text-fill: #ffffff;
 }
 .sidebar > .sidebar-button:focused {
-    -fx-background-color: #17174f;
+    -fx-background-color: #465fc2;
     -fx-text-fill: #ffffff;
 }
+/*-------------------- CustomBar -----------------------*/
+
+.window-btn {
+    -fx-background-color: #090e32;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-border-color: transparent;
+    -fx-font-size: 14px;
+}
+.window-btn:hover {
+    -fx-background-color: #465fc2;
+}
+
+
+/* Menu bouton ☰ */
+.menu-button {
+    -fx-background-color: #090e32;
+    -fx-text-fill: white;
+    -fx-font-size: 18px;
+    -fx-padding: 0 10 0 10;
+}
+.menu-button:hover {
+    -fx-background-color: #465fc2;
+}
+
+.Item {
+    -fx-background-color: #090e32;
+    -fx-min-width: 50 px;
+    -fx-text-fill: white;
+}
+.Item:hover {
+    -fx-background-color: #465fc2;
+    -fx-text-fill: #ffffff;
+
+}
+.Item:focused {
+    -fx-background-color: #465fc2;
+    -fx-text-fill: #ffffff;
+}
+
+/* Barre de recherche */
+.search-field {
+    -fx-background-color: #090e32;
+    -fx-border-color: #0e2881;
+    -fx-border-width: 1px;
+    -fx-border-radius: 10px; /* optionnel pour coins arrondis */
+    -fx-text-fill: white;
+    -fx-prompt-text-fill: #bbbbbb;
+    -fx-background-radius: 10;
+    -fx-padding: 5 10 5 10;
+    -fx-font-size: 13px;
+    -fx-pref-width: 250px;
+}
+.search-field:focused {
+    -fx-background-color: #2e2e72;
+}
+
+
+
+
+

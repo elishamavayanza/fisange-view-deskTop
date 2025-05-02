@@ -16,6 +16,7 @@ com\fisange\models\User.class
 com\fisange\utils\Validator.class
 com\fisange\controllers\components\SidebarController.class
 com\fisange\models\Product.class
+com\fisange\controllers\CustomTitleBarController.class
 com\fisange\controllers\LoginController.class
 com\fisange\controllers\components\ProductCardController.class
 com\fisange\models\Sale.class

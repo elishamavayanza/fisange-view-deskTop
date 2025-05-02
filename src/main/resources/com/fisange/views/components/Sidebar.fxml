@@ -21,7 +21,7 @@
                 </HBox>
             </VBox>
             <Separator/>              <!-- Menu -->
-            <Button text="Tableau de bord" onAction="#showDashboard" styleClass="sidebar-button">
+            <Button text="Tableau de bord" onAction="#showDashboard" styleClass="sidebar-button" maxWidth="Infinity">
                 <graphic>
                     <ImageView fitWidth="16" fitHeight="16" preserveRatio="true">
                         <image>
@@ -31,7 +31,7 @@
                 </graphic>
             </Button>
 
-            <Button text="Point de vente" onAction="#showSales" styleClass="sidebar-button">
+            <Button text="Point de vente" onAction="#showSales" styleClass="sidebar-button" maxWidth="Infinity">
                 <graphic>
                     <ImageView fitWidth="16" fitHeight="16" preserveRatio="true">
                         <image>
@@ -40,7 +40,7 @@
                     </ImageView>
                 </graphic>
             </Button>
-            <Button text="Catégories de produits" onAction="#showCategories" styleClass="sidebar-button">
+            <Button text="Catégories de produits" onAction="#showCategories" styleClass="sidebar-button"  maxWidth="Infinity">
                 <graphic>
                     <ImageView fitWidth="16" fitHeight="16" preserveRatio="true">
                         <image>
@@ -49,7 +49,7 @@
                     </ImageView>
                 </graphic>
             </Button>
-            <Button text="Tous nos produits" onAction="#showProducts" styleClass="sidebar-button">
+            <Button text="Tous nos produits" onAction="#showProducts" styleClass="sidebar-button"  maxWidth="Infinity">
                 <graphic>
                     <ImageView fitWidth="16" fitHeight="16" preserveRatio="true">
                         <image>
@@ -58,7 +58,7 @@
                     </ImageView>
                 </graphic>
             </Button>
-            <Button text="État de stock" onAction="#showStock" styleClass="sidebar-button">
+            <Button text="Entreponts" onAction="#showDepot" styleClass="sidebar-button"  maxWidth="Infinity">
                 <graphic>
                     <ImageView fitWidth="16" fitHeight="16" preserveRatio="true">
                         <image>
@@ -67,7 +67,7 @@
                     </ImageView>
                 </graphic>
             </Button>
-            <Button text="Taux de change" onAction="#showRates" styleClass="sidebar-button">
+            <Button text="État de stock" onAction="#showStock" styleClass="sidebar-button" maxWidth="Infinity">
                 <graphic>
                     <ImageView fitWidth="16" fitHeight="16" preserveRatio="true">
                         <image>
@@ -76,7 +76,7 @@
                     </ImageView>
                 </graphic>
             </Button>
-            <Button text="Utilisateurs" onAction="#showUsers" styleClass="sidebar-button">
+            <Button text="Taux de change" onAction="#showRates" styleClass="sidebar-button" maxWidth="Infinity">
                 <graphic>
                     <ImageView fitWidth="16" fitHeight="16" preserveRatio="true">
                         <image>
@@ -85,7 +85,16 @@
                     </ImageView>
                 </graphic>
             </Button>
-            <Button text="Configuration" onAction="#showSettings" styleClass="sidebar-button">
+            <Button text="Utilisateurs" onAction="#showUsers" styleClass="sidebar-button" maxWidth="Infinity">
+                <graphic>
+                    <ImageView fitWidth="16" fitHeight="16" preserveRatio="true">
+                        <image>
+                            <Image url="@/assets/images/icons/profile.png"/>
+                        </image>
+                    </ImageView>
+                </graphic>
+            </Button>
+            <Button text="Configuration" onAction="#showSettings" styleClass="sidebar-button" maxWidth="Infinity">
                 <graphic>
                     <ImageView fitWidth="16" fitHeight="16" preserveRatio="true">
                         <image>
@@ -95,7 +104,7 @@
                 </graphic>
             </Button>
             <Separator/>
-            <Button text="Ajouter un produit" onAction="#addProduct" styleClass="sidebar-button">
+            <Button text="Ajouter un produit" onAction="#addProduct" styleClass="sidebar-button" maxWidth="Infinity">
                 <graphic>
                     <ImageView fitWidth="16" fitHeight="16" preserveRatio="true">
                         <image>
@@ -104,7 +113,7 @@
                     </ImageView>
                 </graphic>
             </Button>
-            <Button text="Fusion des catalogues" onAction="#mergeCatalogs" styleClass="sidebar-button">
+            <Button text="Fusion des catalogues" onAction="#mergeCatalogs" styleClass="sidebar-button" maxWidth="Infinity">
                 <graphic>
                     <ImageView fitWidth="16" fitHeight="16" preserveRatio="true">
                         <image>
@@ -113,7 +122,7 @@
                     </ImageView>
                 </graphic>
             </Button>
-            <Button text="Revalider Qnt disponible" onAction="#revalidateStock" styleClass="sidebar-button">
+            <Button text="Revalider Qnt disponible" onAction="#revalidateStock" styleClass="sidebar-button" maxWidth="Infinity">
                 <graphic>
                     <ImageView fitWidth="16" fitHeight="16" preserveRatio="true">
                         <image>

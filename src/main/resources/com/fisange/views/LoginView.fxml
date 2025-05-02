@@ -13,7 +13,11 @@
         <Label text="FISANGE SHOP" styleClass="app-title"/>
         <TextField fx:id="usernameField" promptText="Username or Email" />
         <PasswordField fx:id="passwordField" promptText="Password" />
-        <Button text="Login" onAction="#handleLogin" styleClass="login-button"/>
+        <HBox spacing="10" alignment="CENTER">
+            <Button text="Login" onAction="#handleLogin" styleClass="login-button"/>
+            <Button text="Cancel" onAction="#handleCancel" styleClass="cancel-button"/>
+        </HBox>
+
         <Label fx:id="errorLabel" textFill="red" visible="false"/>
 
         <HBox spacing="20" alignment="CENTER">

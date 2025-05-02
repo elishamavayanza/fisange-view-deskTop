@@ -67,6 +67,10 @@ public class DashboardController {
         System.out.println("Tous nos produits cliqués");
         setContent("Tous nos produits");
     }
+    public void showDepot(){
+        System.out.println("Nos entrepot");
+        setContent("Entrepot");
+    }
 
     public void showStock() {
         System.out.println("État de stock cliqué");

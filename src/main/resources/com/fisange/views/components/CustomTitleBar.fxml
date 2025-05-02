@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<HBox fx:id="customBar"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.fisange.controllers.CustomTitleBarController"
+      alignment="CENTER_LEFT"
+      spacing="10"
+      prefHeight="40.0"
+      style="-fx-background-color: #090e32;">
+
+      <padding>
+            <Insets top="5" right="10" bottom="5" left="10"/>
+      </padding>
+
+      <!-- GaucHE: MENU (trois barres) -->
+      <MenuButton text="☰" styleClass="menu-button">
+            <items >
+                  <MenuItem text="File" styleClass="Item"/>
+                  <MenuItem text="Help" styleClass="Item"/>
+                  <MenuItem text="Window" styleClass="Item"/>
+            </items>
+      </MenuButton>
+
+      <!-- CENTRE: barre de recherche -->
+      <Region HBox.hgrow="ALWAYS"/>
+      <TextField fx:id="searchField" promptText="Rechercher..." styleClass="search-field"/>
+      <Region HBox.hgrow="ALWAYS"/>
+
+      <!-- DROITE: boutons fenêtre -->
+      <Button fx:id="minimizeBtn" text="—" styleClass="window-btn"/>
+      <Button fx:id="maximizeBtn" text="□" styleClass="window-btn"/>
+      <Button fx:id="closeBtn" text="x" styleClass="window-btn"/>
+
+</HBox>
