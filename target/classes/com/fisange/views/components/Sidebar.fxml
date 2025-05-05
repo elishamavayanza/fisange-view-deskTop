@@ -15,7 +15,7 @@
 
                 <HBox spacing="10" styleClass="header-box">
                     <ImageView fitHeight="30" fitWidth="30">
-                        <Image url="@/assets/images/icons/profile.png"/>
+                        <Image url="@/assets/images/icons/user-plus-alt-1-svgrepo-com.svg"/>
                     </ImageView>
                     <Label text="ELISHAMA VAYANZA" styleClass="header-subtitle"/>
                 </HBox>
@@ -25,7 +25,7 @@
                 <graphic>
                     <ImageView fitWidth="16" fitHeight="16" preserveRatio="true">
                         <image>
-                            <Image url="@/assets/images/icons/profile.png"/>
+                            <Image url="@/assets/images/icons/user-plus-alt-1-svgrepo-com.svg"/>
                         </image>
                     </ImageView>
                 </graphic>
@@ -35,7 +35,7 @@
                 <graphic>
                     <ImageView fitWidth="16" fitHeight="16" preserveRatio="true">
                         <image>
-                            <Image url="@/assets/images/icons/profile.png"/>
+                            <Image url="@/assets/images/icons/user-plus-alt-1-svgrepo-com.svg"/>
                         </image>
                     </ImageView>
                 </graphic>
@@ -44,7 +44,7 @@
                 <graphic>
                     <ImageView fitWidth="16" fitHeight="16" preserveRatio="true">
                         <image>
-                            <Image url="@/assets/images/icons/profile.png"/>
+                            <Image url="@/assets/images/icons/user-plus-alt-1-svgrepo-com.svg"/>
                         </image>
                     </ImageView>
                 </graphic>
@@ -53,7 +53,7 @@
                 <graphic>
                     <ImageView fitWidth="16" fitHeight="16" preserveRatio="true">
                         <image>
-                            <Image url="@/assets/images/icons/profile.png"/>
+                            <Image url="@/assets/images/icons/user-plus-alt-1-svgrepo-com.svg"/>
                         </image>
                     </ImageView>
                 </graphic>
@@ -62,7 +62,7 @@
                 <graphic>
                     <ImageView fitWidth="16" fitHeight="16" preserveRatio="true">
                         <image>
-                            <Image url="@/assets/images/icons/profile.png"/>
+                            <Image url="@/assets/images/icons/user-plus-alt-1-svgrepo-com.svg"/>
                         </image>
                     </ImageView>
                 </graphic>
@@ -71,7 +71,7 @@
                 <graphic>
                     <ImageView fitWidth="16" fitHeight="16" preserveRatio="true">
                         <image>
-                            <Image url="@/assets/images/icons/profile.png"/>
+                            <Image url="@/assets/images/icons/user-plus-alt-1-svgrepo-com.svg"/>
                         </image>
                     </ImageView>
                 </graphic>
@@ -80,7 +80,7 @@
                 <graphic>
                     <ImageView fitWidth="16" fitHeight="16" preserveRatio="true">
                         <image>
-                            <Image url="@/assets/images/icons/profile.png"/>
+                            <Image url="@/assets/images/icons/user-plus-alt-1-svgrepo-com.svg"/>
                         </image>
                     </ImageView>
                 </graphic>
@@ -89,7 +89,7 @@
                 <graphic>
                     <ImageView fitWidth="16" fitHeight="16" preserveRatio="true">
                         <image>
-                            <Image url="@/assets/images/icons/profile.png"/>
+                            <Image url="@/assets/images/icons/user-plus-alt-1-svgrepo-com.svg"/>
                         </image>
                     </ImageView>
                 </graphic>
@@ -98,7 +98,7 @@
                 <graphic>
                     <ImageView fitWidth="16" fitHeight="16" preserveRatio="true">
                         <image>
-                            <Image url="@/assets/images/icons/profile.png"/>
+                            <Image url="@/assets/images/icons/user-plus-alt-1-svgrepo-com.svg"/>
                         </image>
                     </ImageView>
                 </graphic>
@@ -108,7 +108,7 @@
                 <graphic>
                     <ImageView fitWidth="16" fitHeight="16" preserveRatio="true">
                         <image>
-                            <Image url="@/assets/images/icons/profile.png"/>
+                            <Image url="@/assets/images/icons/user-plus-alt-1-svgrepo-com.svg"/>
                         </image>
                     </ImageView>
                 </graphic>
@@ -117,7 +117,7 @@
                 <graphic>
                     <ImageView fitWidth="16" fitHeight="16" preserveRatio="true">
                         <image>
-                            <Image url="@/assets/images/icons/profile.png"/>
+                            <Image url="@/assets/images/icons/user-plus-alt-1-svgrepo-com.svg"/>
                         </image>
                     </ImageView>
                 </graphic>
@@ -126,7 +126,7 @@
                 <graphic>
                     <ImageView fitWidth="16" fitHeight="16" preserveRatio="true">
                         <image>
-                            <Image url="@/assets/images/icons/profile.png"/>
+                            <Image url="@/assets/images/icons/user-plus-alt-1-svgrepo-com.svg"/>
                         </image>
                     </ImageView>
                 </graphic>
