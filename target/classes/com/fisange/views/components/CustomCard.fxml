@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml"
+      style="-fx-background-color: #3a3a3a; -fx-padding: 20px; -fx-border-radius: 10; -fx-background-radius: 10;">
+    <Label text="Titre de la carte" style="-fx-text-fill: white; -fx-font-size: 16px;"/>
+    <Label text="Détail de la carte" style="-fx-text-fill: white;"/>
+</VBox>

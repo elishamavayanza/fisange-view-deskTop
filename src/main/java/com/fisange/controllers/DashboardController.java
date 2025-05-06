@@ -5,10 +5,8 @@ import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.control.Label;
 import javafx.scene.control.ScrollPane;
-import javafx.scene.layout.StackPane;
-import javafx.scene.layout.VBox;
+import javafx.scene.layout.*;
 
-import javafx.scene.layout.Priority;
 import javafx.scene.layout.VBox;
 
 
@@ -50,13 +48,30 @@ public class DashboardController {
     // Méthodes appelées depuis SidebarController
     public void showDashboard() {
         System.out.println("Tableau de bord cliqué");
-        setContent("Bienvenue dans le Tableau de bord !");
+        try {
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/fisange/views/DashboardHomeView.fxml"));
+            // Charger directement un BorderPane si c'est ce qui est nécessaire
+            BorderPane dashboardView = loader.load();
+            contentArea.getChildren().clear();
+            contentArea.getChildren().add(dashboardView);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
+
+
     public void showSales() {
-        System.out.println("Point de vente cliqué");
-        setContent("Point de vente");
+        try {
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/fisange/views/SalesView.fxml"));
+            StackPane salesView = loader.load();
+            contentArea.getChildren().clear();
+            contentArea.getChildren().add(salesView);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
+
 
     public void showCategories() {
         System.out.println("Catégories de produits cliquées");

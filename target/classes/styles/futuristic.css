@@ -35,7 +35,6 @@
 }
 
 /* ---------- Sidebar Container ---------- */
-/* ---------- Sidebar Container ---------- */
 .sidebar {
     -fx-background-color: #090e32;
     -fx-padding: 5;
@@ -141,6 +140,188 @@
 }
 
 
+/*---------------------- Cetre -----------------------------------*/
+
+/* ---------- Global ---------- */
+.root {
+    -fx-background-color: linear-gradient(to bottom right, #040319, #0e1c38);
+    -fx-font-family: "Segoe UI", sans-serif;
+}
+
+/* ---------- Dashboard Pane ---------- */
+.dashboard-pane {
+    -fx-background-color: linear-gradient(to bottom right, #040319, #0e1c38);
+    -fx-padding: 0px;
+}
+
+/* ---------- Header ---------- */
+.header {
+    -fx-background-color: #0e1c38;
+    -fx-padding: 15;
+}
+.header-title {
+    -fx-font-size: 20px;
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+}
+.header-subtitle {
+    -fx-font-size: 12px;
+    -fx-text-fill: #b0b0b0;
+}
+
+/* ---------- SplitPane ---------- */
+.split-pane {
+    -fx-background-color: #2e2e2e;
+    -fx-border-color: transparent;
+}
+
+.split-pane .split-pane-divider {
+    -fx-background-color: #465fc2; /* Couleur de la séparation */
+    -fx-padding: 2px;
+}
+
+/* ---------- Graphiques et Légende ---------- */
+#chartsAndLegendContainer {
+    -fx-background-color: #1b1b65;
+    -fx-padding: 15px;
+    -fx-border-radius: 10px;
+    -fx-spacing: 20px;
+}
+
+/* Section des Graphiques */
+#chartsContainer {
+    -fx-spacing: 20px;
+}
+
+/* Section Légende */
+#legendContainer {
+    -fx-background-color: #090e32;
+    -fx-padding: 10px;
+    -fx-border-radius: 10px;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+}
+
+/* ---------- Calendrier ---------- */
+#calendarContainer {
+    -fx-background-color: #090e32;
+    -fx-padding: 15px;
+    -fx-border-radius: 10px;
+    -fx-spacing: 10px;
+    -fx-text-fill: white;
+}
+
+#calendarContainer Label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #d0d0d0;
+}
+
+/* ---------- Global Controls ---------- */
+.search-field {
+    -fx-background-color: #090e32;
+    -fx-border-color: #0e2881;
+    -fx-border-width: 1px;
+    -fx-border-radius: 10px;
+    -fx-text-fill: white;
+    -fx-prompt-text-fill: #bbbbbb;
+    -fx-background-radius: 10;
+    -fx-padding: 5 10 5 10;
+    -fx-font-size: 13px;
+    -fx-pref-width: 250px;
+}
+.search-field:focused {
+    -fx-background-color: #2e2e72;
+}
+
+/* ------------------------- Centre -----------------------------*/
+/* ---------- Cards Container ---------- */
+#cardsContainer {
+    -fx-spacing: 20px;
+    -fx-background-color: #2e2e2e;
+    -fx-padding: 10px;
+}
+
+/* ---------- Sales Container ---------- */
+#salesContainer {
+    -fx-spacing: 10px;
+    -fx-padding: 10px;
+    -fx-background-color: #3a3a3a;
+    -fx-border-radius: 8px;
+}
+#salesContainer .label {
+    -fx-text-fill: white;
+}
+
+/* ---------- Charts Container ---------- */
+#chartsContainer {
+    -fx-spacing: 20px;
+    -fx-background-color: #3a3a3a;
+    -fx-padding: 10px;
+    -fx-border-radius: 10px;
+}
+#chartsContainer .chart {
+    -fx-background-color: #3a3a3a;
+    -fx-padding: 10;
+    -fx-border-radius: 10px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 10, 0, 0, 3);
+}
+
+/* ---------- Legend Container ---------- */
+#legendContainer {
+    -fx-spacing: 10px;
+    -fx-padding: 10px;
+    -fx-background-color: #2e2e2e;
+    -fx-border-radius: 8px;
+}
+#legendContainer .label {
+    -fx-text-fill: white;
+}
+
+/* ---------- Calendar Container ---------- */
+#calendarContainer {
+    -fx-spacing: 10px;
+    -fx-padding: 10px;
+    -fx-background-color: #2e2e2e;
+    -fx-border-radius: 8px;
+}
+#calendarContainer .label {
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+}
+#calendarContainer .month-label {
+    -fx-text-fill: white;
+    -fx-cursor: hand;
+}
+
+/* ---------- Hover Effects for Month Labels ---------- */
+#calendarContainer .month-label:hover {
+    -fx-text-fill: #4CAF50;
+}
+
+/* ---------- PieChart Styling ---------- */
+.chart .pie-chart {
+    -fx-background-color: transparent;
+}
+.chart .pie-chart .chart-pie {
+    -fx-background-color: transparent;
+}
+.chart .pie-chart .chart-legend {
+    -fx-background-color: transparent;
+}
+.chart .pie-chart .chart-pie-slice {
+    -fx-opacity: 1;
+    -fx-stroke-width: 1;
+    -fx-stroke: rgba(255, 255, 255, 0.5);
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 10, 0, 0, 3);
+}
+
+/* ---------- Drop Shadows for UI Elements ---------- */
+#cardsContainer .card,
+#chartsContainer .chart,
+#salesContainer,
+#legendContainer {
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 10, 0, 0, 5);
+}
 
 
 

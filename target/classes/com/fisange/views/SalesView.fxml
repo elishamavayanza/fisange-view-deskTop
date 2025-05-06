@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="com.fisange.controllers.SalesController">
+    <TableView fx:id="salesTable" prefWidth="800" prefHeight="600">
+        <columns>
+            <TableColumn fx:id="productColumn" text="Produit" />
+            <TableColumn fx:id="quantityColumn" text="Quantité" />
+            <TableColumn fx:id="priceColumn" text="Prix" />
+        </columns>
+    </TableView>
+    <Button text="Ajouter une vente" onAction="#addSale" />
+    <Button text="Annuler une vente" onAction="#cancelSale" />
+    <Button text="Voir les détails" onAction="#showSaleDetails" />
+</VBox>

@@ -18,6 +18,7 @@ com\fisange\utils\Validator.class
 com\fisange\models\Sale.class
 com\fisange\controllers\DepotsController.class
 com\fisange\utils\SessionManager.class
+com\fisange\controllers\DashboardHomeController.class
 com\fisange\services\AuthService.class
 com\fisange\services\SalesService.class
 com\fisange\controllers\components\AlertBoxController.class

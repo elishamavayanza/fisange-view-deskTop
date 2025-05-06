@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.chart.*?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.fisange.controllers.DashboardHomeController"
+            style="-fx-background-color: #2e2e2e; -fx-padding: 20px;">
+
+    <top>
+        <VBox spacing="10">
+            <Label fx:id="selectedMonthLabel" text="Mois sélectionné : Aucun"
+                   style="-fx-text-fill: white; -fx-font-size: 16px;"/>
+            <HBox fx:id="cardsContainer" spacing="20"/>
+        </VBox>
+    </top>
+
+
+    <center>
+        <VBox spacing="20">
+            <HBox fx:id="chartsContainer" spacing="20">
+                <!-- Les graphiques seront ajoutés dans le code Java -->
+            </HBox>
+            <VBox fx:id="salesContainer" spacing="10"/>
+            <VBox fx:id="legendContainer" spacing="10"/>
+        </VBox>
+    </center>
+
+    <right>
+        <VBox fx:id="calendarContainer" spacing="10"/>
+    </right>
+</BorderPane>
